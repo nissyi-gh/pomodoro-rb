@@ -14,9 +14,6 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require_relative '../lib/**/*'
-require_relative '../bin/**/*'
-
 RSpec.configure do |config|
   config.expose_dsl_globally = true
 
